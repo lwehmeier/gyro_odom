@@ -1,7 +1,7 @@
 <!-- Starts up everything needed to run the example listener/talker Python nodes. -->
 
 <launch>
-  <node pkg="gyro_odom" type="gyro_odom.py" name="gyro_odom">
+  <node pkg="gyro_odom" type="gyro_odom.exe" name="gyro_odom">
     <param name="rate" value="10"/>
   </node>
 
